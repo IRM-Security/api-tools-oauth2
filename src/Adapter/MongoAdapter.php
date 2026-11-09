@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Laminas\ApiTools\OAuth2\Adapter;
 
-use Laminas\Crypt\Password\Bcrypt;
+use Laminas\ApiTools\OAuth2\Password\Bcrypt;
 use MongoClient;
 use OAuth2\Storage\Mongo as OAuth2Mongo;
 
