@@ -3,7 +3,7 @@
 
 declare(strict_types=1);
 
-use Laminas\Crypt\Password\Bcrypt;
+use Laminas\ApiTools\OAuth2\Password\Bcrypt;
 
 $autoload = realpath(__DIR__ . '/../vendor/autoload.php');
 if (! $autoload) {
